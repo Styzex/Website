@@ -1,0 +1,71 @@
+/*Fonts*/
+@font-face {
+	font-family: "NerdFont";
+	src: url("fonts/JetBrainsMonoNerdFont-Medium.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "NerdFont";
+	src: url("fonts/JetBrainsMonoNerdFont-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "NerdFont";
+	src: url("fonts/JetBrainsMonoNerdFont-Italic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "NerdFont";
+	src: url("fonts/JetBrainsMonoNerdFont-BoldItalic.ttf") format("truetype");
+	font-weight: bold;
+	font-style: italic;
+}
+
+/*Styling*/
+
+.button {
+    transition: 0.4s;
+    margin-bottom: 15px;
+    border: none;
+    background-color: #76946A;
+    box-shadow: 0 10px #647c5b;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 30px;
+
+    font-family: "NerdFont";
+}
+
+button:hover {
+    font-size: 40px;
+    color: #fff;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 50px;
+    font-family: "NerdFont";
+    color: #fff;
+}
+
+.space {
+    height: 25vh;
+}
